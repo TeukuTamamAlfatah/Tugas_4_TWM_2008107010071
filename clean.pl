@@ -26,10 +26,10 @@ use HTML::ExtractContent;
 use File::Basename;
 
 # Directory where clean data are stored, its better to set this in config file
-my $PATHCLEAN = "/home/tamam/Documents/Belajar_Py/clean";
+my $PATHCLEAN = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/Download/clean_sport";
 
 # Directory containing HTML files
-my $HTML_DIR = "/home/tamam/Documents/Belajar_Py/detik_sport";
+my $HTML_DIR = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/Download/training_sport";
 
 # Loop through each HTML file in the specified directory
 opendir(my $dh, $HTML_DIR) || die "Can't opendir $HTML_DIR: $!";
