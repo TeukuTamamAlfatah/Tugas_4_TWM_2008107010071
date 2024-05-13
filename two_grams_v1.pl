@@ -11,7 +11,8 @@ use lib '../lib';
 use Lingua::EN::Bigram;
 use strict;
 
-my $PATH = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/two_grams";
+# my $PATH = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/finance_grams";
+my $PATH = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/sport_grams";
 open TOFILE, "> $PATH/kamus_2grams.txt" or die "Cannot Open File!!!";
 
 my %stopwords;
@@ -27,10 +28,6 @@ if (! $file) {
 open F, $file or die "Can't open input: $!\n";
 my $text = do { local $/; <F> };
 
-#my $text = '';
-#while(<F>){
-#  $text .= $_;
-#}
 
 close F;
 

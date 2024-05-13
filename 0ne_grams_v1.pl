@@ -4,7 +4,8 @@ use lib '../lib';
 use Lingua::EN::Bigram;
 use strict;
 
-my $PATH = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/one_grams";
+# my $PATH = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/finance_grams";
+my $PATH = "/home/tamam/Documents/Belajar_Py/Tugas_4_TWM/sport_grams";
 open TOFILE, "> $PATH/kamus_1grams.txt" or die "Cannot Open File!!!";
 
 my %stopwords;
